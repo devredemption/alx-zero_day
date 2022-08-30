@@ -1,0 +1,13 @@
+git clone https://{YOUR_PERSONAL_TOKEN}@github.com/{YOUR_USERNAME}/alx-pre_course.git                  
+git config --global user.email "redemptionjonathan@yahoo.com"
+git config --global user.name "devredemption"
+git add .
+git commit -m "<message description>"
+git push
+git branch update_script
+git checkout update_script
+git push origin update_script
+git checkout master
+git pull
+git log
+git status
